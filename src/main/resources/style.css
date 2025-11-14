@@ -1,0 +1,66 @@
+.chat-container {
+    -fx-background-color: #f4f6f8;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-fit-to-width: true;
+}
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+.message-bubble {
+    -fx-padding: 10 15 10 15;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-max-width: 250;
+    -fx-wrap-text: true;
+    -fx-font-family: 'Arial';
+    -fx-font-size: 14px;
+}
+.sent {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+.received {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 5, 0, 0, 2);
+}
+.avatar {
+    -fx-fill: #cccccc;
+}
+.input-area {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10 15 10 15;
+    -fx-alignment: CENTER;
+    -fx-spacing: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 10, 0, 0, -5);
+}
+.text-field {
+    -fx-background-color: #f4f6f8;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-prompt-text-fill: #888888;
+    -fx-font-size: 14px;
+    -fx-padding: 8 15 8 15;
+}
+.send-button {
+    -fx-background-color: #007bff;
+    -fx-background-radius: 50%;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+}
+.send-button .svg-icon {
+    -fx-fill: white;
+}
+.attach-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 50%;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+}
+.attach-button .svg-icon {
+    -fx-fill: #555555;
+}
